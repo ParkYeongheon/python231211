@@ -64,3 +64,9 @@ lst = list(range(1,11))
 print([i**2 for i in lst if i > 5])
 tp = ("apple", "kiwi", "orange")
 print([len(i) for i in tp])
+
+#f-string 문법을 사용
+for i in [2,3,4,5,6]:
+    print(f"{i}단 출력")
+    for j in [1,2,3,4,5,6,7,8,9]:
+        print(f"{i}*{j}={i*j}")
